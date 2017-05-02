@@ -55,15 +55,19 @@ header {
     background-position: 20% 30%;
 }
 
+.header-transparency {
+     height: 550px;
+     background-color: rgba(0,0,0,0.1);
+}
+
 .header-contents {
-    background-color: rgba(0,0,0,0.1);
     background-position: center;
     vertical-align: middle;
-    padding: 50px 0 50px 0;
 
 }
 
 .header-text {
+    padding: 50px 0 10px 0;
     max-width: 1000px;
     margin: 0 auto;
 }
