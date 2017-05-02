@@ -1,0 +1,185 @@
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+
+/*nav*/
+
+nav {
+    color: white;
+    background-color: black;
+    padding: 13px 30px 9px 30px;
+}
+
+nav img {
+    display: inline;
+    max-height: 35px;
+}
+
+nav ul {
+    display: inline;
+    float: right;
+    vertical-align: middle;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: pink;
+}
+
+
+/*header*/
+
+header {
+    height: 550px;
+    text-align: center;
+    color: white;
+    background: url('images/kayak-bkgd.jpg') fixed;
+    background-size: 120%;
+    background-attachment: scroll;
+    background-position: 20% 30%;
+}
+
+.header-contents {
+    background-color: rgba(0,0,0,0.1);
+    background-position: center;
+    vertical-align: middle;
+
+}
+
+.header-text {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-text h1 {
+    color: white;
+    font-size: 90px;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.header-contents p{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    padding: 3px 6px;
+
+}
+
+.header-button a {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #E86554;
+    color:white;
+    padding: 15px 12px;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+
+.header-button a:hover {
+    background-color: #D64836;
+}
+
+
+/*article*/
+
+section {
+    margin: 0 30px;
+}
+
+article h2 {
+    margin: 0;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+
+/*about*/
+
+.about-images {
+    background-color: pink;
+    margin: 0 auto;
+}
+
+ .about-images img {
+     width: 30%;
+ }
+
+
+
+/*rentals*/
+
+article aside {
+
+    width: 49.8%;
+    display: inline-block;
+    background-color: pink;
+}
+
+aside p {
+    text-align: left;
+}
+
+
+/*location*/
+
+/*footer*/
+
+footer {
+    background-color: #2E2E2E;
+    color: white;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+footer aside {
+    display: inline-block;
+}
+
+footer ul{
+    display: inline;
+    float: right;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+footer ul a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul a:hover{
+    color: pink;
+}
+
+footer li {
+    padding-bottom: 5px;
+}
+
