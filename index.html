@@ -5,16 +5,26 @@
         <meta charset="utf-8">
         <title>Perfect Paddles</title>
         <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="fonts.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://use.fontawesome.com/4fbf87bab3.js"></script>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="A most excellent website">
         <meta name="author" content="RED Academy">
     </head>
 
 
 <body>
+
+    <!--<div class="screen-reader-text">
+        <a class="screen-reader-text" href="#signup">Skip to sign up</a>
+        <a class="screen-reader-text" href="#about">Skip to about</a>
+        <a class="screen-reader-text" href="#rentals">Skip to rentals</a>
+    </div>-->
+
     <nav>
-        <img src="images/perfect-paddles-logo.svg" alt="Perfect Paddles Logo" />
+        <img src="images/perfect-paddles-logo.svg" alt="Perfect Paddles Logo"/>
         
         <ul>
             <li><a href="about.html">About</a></li>
@@ -24,7 +34,6 @@
     </nav>
 
     <header>
-         <div class="header-transparency">
             <div class="header-contents">
                 <div class="header-text">
                     <h3>Enjoy the</h3> <h1>Great Outdoors</h1> <h2>from the water</h2>
@@ -34,11 +43,10 @@
                 
                 <div class="header-button"><a href="signup.html">Sign me up!</a></div>
             </div>
-        </div>
     </header>
 
     <section>
-        <article>
+        <article id="about">
             <h2>About</h2>
 
             <p>Perfect Paddles Kayak Rentals Co. offers you the unique opportunity to experience the great outdoors in one of our single or double kayaks.  We cater to all skill levels and abilities, and offer a variety of lessons and tours too.</p>
@@ -79,33 +87,62 @@
     </section>
 
     <footer>
-        <aside>
-            <p>
-            © 2017 Perfect Paddles Kayak Co.<br>
+        <section class="contact-info">
+            <div>
+                <p>© 2017 Perfect Paddles Kayak Co.</p>
+                <p>Powered by HTML and CSS.</p>
+            </div>
 
-            Powered by HTML and CSS.
-            </p>
+            <div>
+                <p>(604) 604-6040 info@perfectpaddles.com</p>
+            </div>
 
-            <p>
-            (604) 604-6040 info@perfectpaddles.com
-            </p>
-            
-            <p>
-            Cornwall Avenue & Yew Street<br>
-            Vancouver, BC, Canada
-            </p>
-        </aside>
+            <div class="contact-address">
+                <p>Cornwall Avenue & Yew Street</p>
+                <p>Vancouver, BC, Canada</p>
+            </div>     
+        </section>
 
-        <aside>
+        <section>
+
             <ul>
-                <li><a href="https://facebook.com">Facebook</a></li>
-                <li><a href="https://twitter.com">Twitter</a></li>
-                <li><a href="https://instagram.com">Instagram</a></li>
-                <li><a href="https://pinterest.com">Pinteres</a></li>
-                <li><a href="https://plus.google.com">Google+</a></li>
-            </ul>
-        <aside>
+                <li>
+                    <a href="https://facebook.com">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://pinterest.com">
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                    <span>Pintrest</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    <span>Google+</span>
+                    </a>
+                </li>
+            </ul>  
+
+        <section>
     </footer>
+
+    <script src="tota11y.min.js"></script>
+
 </body>
     
 </html>

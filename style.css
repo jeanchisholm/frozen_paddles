@@ -1,17 +1,14 @@
+/*.screen-reader-text:focus {
+   clip: auto !important;
+   display: block;
+   height: auto;
+   left: 5px;
+   top: 5px;
+   width: auto;
+   z-index: 100000;
+}*/ /* above all content */
 
-@font-face {
-    font-family: 'Karla-Regular';
-    src: url('Karla-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'Pacifico';
-    src: url('Pacifico.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
 
 body {
     font-family: 'Karla-Regular', Arial, sans-serif;
@@ -24,28 +21,33 @@ body {
 nav {
     color: white;
     background-color: black;
-    padding: 13px 30px 9px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 nav img {
-    display: inline;
-    max-height: 35px;
+    display: flex;
+    align-content: center;
+    max-height: 40px;
+    margin: 15px 30px;
 }
 
 nav ul {
-    display: inline;
-    float: right;
-    vertical-align: middle;
-    margin: 0;
+    margin: 0px 30px; 
+    display: flex;
+    align-content: center;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 17px;
     letter-spacing: 2px;
-    padding-top: 11px;
+    list-style: none;
 }
 
 nav li {
-    display: inline;
     padding-left: 20px;
+
 }
 
 nav a {
@@ -61,25 +63,23 @@ nav a:hover {
 /*header*/
 
 header {
-    height: 550px;
+    height: 100vh;
     text-align: center;
-    color: white;
-    background: url('images/kayak-bkgd.jpg') fixed;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/kayak-bkgd.jpg') fixed;
     background-size: 120%;
+    color: white;
     background-attachment: scroll;
     background-position: 20% 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.header-transparency {
-     height: 550px;
-     background-color: rgba(0,0,0,0.1);
-}
+
 
 .header-contents {
     padding: 50px 0 10px 0;
     background-position: center;
-    vertical-align: middle;
-
 }
 
 .header-text {
@@ -90,16 +90,32 @@ header {
 .header-text h1 {
     font-family: 'Pacifico', Arial, sans-serif;
     color: white;
-    font-size: 90px;
+    font-size: 120px;
     margin: 0;
-    padding: 0 30px;
+    padding: 0 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.31);
+}
+
+.header-text h2{
+    font-family: 'Pacifico', Arial, sans-serif;
+    font-size: 50px;
+    margin: 20px 0 40px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31);
+}
+
+.header-text h3{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    margin: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31);
 }
 
 .header-contents p{
     display: inline-block;
-    background-color: rgba(0,0,0,0.5);
-    padding: 3px 6px;
-
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 6px 12px;
 }
 
 .header-button a {
@@ -121,13 +137,16 @@ header {
 }
 
 
-/*article*/
+/*sections general*/
 
 section {
     margin: 0 30px;
 }
 
 article h2 {
+    font-family: 'Pacifico', Arial, sans-serif;
+    color: #646464;
+    font-size: 40px;
     margin: 0;
     text-align: center;
     padding-top: 70px;
@@ -144,12 +163,16 @@ p {
 /*about*/
 
 .about-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: pink;
-    margin: 0 auto;
 }
 
  .about-images img {
-     width: 30%;
+     height: 200px;
+     width: 32%;
+     max-width: 350px;
  }
 
 
@@ -173,27 +196,51 @@ aside p {
 /*footer*/
 
 footer {
-    background-color: #2E2E2E;
+    background-color: #242424;
+    width: 100%;
     color: white;
-    margin-top: 30px;
-    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 260px;
+    align-items: center;
+
 }
 
-footer aside {
-    display: inline-block;
+footer section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 55%;
+    margin: 0px 30px;
 }
+
+footer p {
+    text-align: left;
+    line-height: 1.4;
+    font-size: 1em;
+}
+
+.contact-info {
+    justify-content: space-around;
+}
+
+.contact-address {
+    color: #969696;
+}
+
 
 footer ul{
-    display: inline;
-    float: right;
     margin: 0;
     list-style-type: none;
+    padding-right: 60px;
 
 }
 
 footer ul a{
     color: white;
     text-decoration: none;
+    line-height: 1.4;
+    font-size: 1em;
 }
 
 footer ul a:hover{
@@ -204,3 +251,13 @@ footer li {
     padding-bottom: 5px;
 }
 
+footer i {
+    width: 25px;
+}
+
+
+@media all and (min-width: 500px) and (max-width: 960px) {
+   body {
+      color: red;
+   }
+}
