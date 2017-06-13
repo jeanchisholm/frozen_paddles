@@ -320,23 +320,59 @@ footer i {
 
     nav {
         display: block;
-        position: absolute;
+        position: relative;
     }
 
     nav img {
         margin: 0 auto;
-        padding: 17px 0;
-        max-height: 50px;
+        padding: 12px 0;
+        max-height: 42px;
     }
 
     nav ul {
-        margin: 0px auto; 
+        margin: 0px auto;
         display: flex;
+        justify-content: center;
+        padding: 10px 0 15px 0;
+        width: 70%;
+        font-family: 'Karla-Bold';
     }
 
     nav li {
-        padding-left: 0px;
+        padding: 0px 20px;
 
+    }
+
+    header {
+        background-size: cover;
+        background-position: 45% 80%;
+        height: 500px;
+        background-repeat: no-repeat;
+        align-items: initial;
+        padding-top: 30px;
+    }
+
+    .header-contents {
+        padding: 26px 0 10px 0;
+    }
+
+    .header-text h3 {
+        font-size: 1.4em;
+        padding-bottom: 14px;
+    }
+
+    .header-text h1 {
+        font-size: 3.3em;
+    }
+
+    .header-text h2 {
+        font-size: 2.2em;
+    }
+
+    .header-contents p {
+        font-size: 1em;
+        width: 75%;
+        line-height: 1.6;
     }
 
 }
