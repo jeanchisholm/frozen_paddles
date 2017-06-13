@@ -372,7 +372,16 @@ footer i {
     .header-contents p {
         font-size: 1em;
         width: 75%;
-        line-height: 1.6;
+        line-height: 1.4;
     }
+
+    .header-button a {
+        margin-top: 26px;
+        padding: 15px 23px;
+        font-size: 1.5em;
+        border-radius: 28px;
+    }
+
+
 
 }
