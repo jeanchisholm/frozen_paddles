@@ -362,7 +362,7 @@ footer i {
     }
 
     .header-text h1 {
-        font-size: 3.3em;
+        font-size: 3.6em;
     }
 
     .header-text h2 {
@@ -380,6 +380,21 @@ footer i {
         padding: 15px 23px;
         font-size: 1.2em;
         border-radius: 28px;
+    }
+
+        /*Mobile Sections*/
+
+    section {
+        margin: 0 9px;
+    }
+
+    .about-images {
+        display: block;
+    }
+
+    .about-images img {
+        width: 100%;
+        padding-bottom: 15px;
     }
 
 
