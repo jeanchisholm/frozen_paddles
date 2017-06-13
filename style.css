@@ -77,7 +77,6 @@ header {
 }
 
 
-
 .header-contents {
     padding: 50px 0 10px 0;
     background-position: center;
@@ -219,6 +218,7 @@ tr {
 
 th {
     background-color: #e6e6e6;
+    font-family: 'Karla-Bold';
     text-align: left;
     margin: 0;
     padding: 8px;
@@ -395,6 +395,28 @@ footer i {
     .about-images img {
         width: 100%;
         padding-bottom: 15px;
+    }
+
+    .rental-content {
+        display: block;
+
+    }
+
+    article aside {
+        width: 100%;
+        display: block;
+    }
+
+    table {
+        margin-top: 20px;
+    }
+
+    th {
+        padding: 14px;
+    }
+
+    td {
+        padding: 14px;
     }
 
 
