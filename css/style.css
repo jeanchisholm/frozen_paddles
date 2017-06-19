@@ -68,6 +68,7 @@ header {
     text-align: center;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/kayak-bkgd.jpg') fixed;
     background-size: 120%;
+    background-repeat: no-repeat;
     color: white;
     background-attachment: scroll;
     background-position: 20% 30%;
@@ -319,9 +320,6 @@ footer i {
 /*Mobile Sized*/
 
 @media all and (max-width: 600px) {
-    body {
-        color: green;
-    }
 
     nav {
         display: block;
@@ -352,7 +350,6 @@ footer i {
         background-size: cover;
         background-position: 45% 80%;
         height: 500px;
-        background-repeat: no-repeat;
         align-items: initial;
         padding-top: 30px;
     }
@@ -427,44 +424,34 @@ footer i {
         /*Mobile Footer*/
 
     footer {
-
-    color: white;
-    display: block;
-    justify-content: space-between;
-    height: 320px;
-    text-align: center;
-    padding-top:50px;
+        color: white;
+        display: block;
+        justify-content: space-between;
+        height: 320px;
+        text-align: center;
+        padding-top:50px;
     }
 
     footer section {
-    height: auto;
-    margin: 0px 9px;
+        height: auto;
+        margin: 0px 9px;
     }
 
     footer div {
-    padding-bottom: 30px;
+        padding-bottom: 30px;
     }
 
     footer p {
-    text-align: center;
-    line-height: 1.7;
-    }
-
-    footer ul{
-    margin: 0;
-    list-style-type: none;
-    padding-right: 60px;
+        text-align: center;
+        line-height: 1.7;
     }
 
     footer li {
-    display: inline;
+        display: inline;
     }
     
     footer span {
         display: none;
     }
-
-
-
 
 }
