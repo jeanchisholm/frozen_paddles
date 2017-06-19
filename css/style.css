@@ -175,6 +175,9 @@ section p {
 
  .about-images img {
      width: 32.2%;
+    -webkit-box-shadow: 3px 2px 7px -2px rgba(0,0,0,0.56);
+    -moz-box-shadow: 3px 2px 7px -2px rgba(0,0,0,0.56);
+    box-shadow: 3px 2px 7px -2px rgba(0,0,0,0.56);
  }
 
 
@@ -308,12 +311,64 @@ footer i {
 
 
 
-/*Tablet Sized*/
+    /*Tablet Sized*/
 
 @media all and (min-width: 600px) and (max-width: 1140px) {
-   body {
-      color: red;
-   }
+   nav img {
+        max-height: 35px;
+        margin: 12px 15px;
+    }   
+
+   nav ul {
+       margin: 0px 15px; 
+       padding: 0px;
+       font-size: .9em;
+    }
+
+    header {
+        background-position: 45% 80%;
+        height: 600px;
+        padding-top: 30px;
+    }
+
+    .header-contents {
+        padding: 26px 0 10px 0;
+    }
+
+    .header-text h3 {
+        font-size: 1.1em;
+        padding-bottom: 4px;
+    }
+
+    .header-text h1 {
+        font-size: 5.5em;
+    }
+
+    .header-text h2 {
+        font-size: 3.3em;
+    }
+
+    .header-contents p {
+        font-size: 1.2em;
+        max-width: 99%;
+    }
+
+            /*Tablet Sections*/
+
+    section {
+        margin: 0 15px;
+    }
+
+    footer section {
+        margin: 0px 12px;
+        height: 60%;
+    }
+
+    footer ul {
+        padding-right: 30px;
+
+    }
+
 }
 
 
