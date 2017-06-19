@@ -169,6 +169,7 @@ section p {
     margin-top: 50px;
     text-align: center;
     display: flex;
+    align-content: center;
     align-items: center;
     justify-content: space-between;
 }
