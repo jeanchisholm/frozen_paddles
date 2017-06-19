@@ -425,6 +425,40 @@ footer i {
     }
 
         /*Mobile Footer*/
+
+    footer {
+
+    color: white;
+    display: block;
+    justify-content: space-between;
+    height: 320px;
+    text-align: center;
+    padding-top:50px;
+    }
+
+    footer section {
+    height: auto;
+    margin: 0px 9px;
+    }
+
+    footer div {
+    padding-bottom: 30px;
+    }
+
+    footer p {
+    text-align: center;
+    line-height: 1.7;
+    }
+
+    footer ul{
+    margin: 0;
+    list-style-type: none;
+    padding-right: 60px;
+    }
+
+    footer li {
+    display: inline;
+    }
     
     footer span {
         display: none;
