@@ -419,6 +419,13 @@ footer i {
         padding: 14px;
     }
 
+        /*Mobile Footer*/
+    
+    footer span {
+        display: none;
+    }
+
+
 
 
 }
