@@ -1,54 +1,54 @@
 @font-face {
     font-family: 'Karla-Regular';
-    src: url('./fonts/karla/Karla-Regular.eot');
-    src: url('./fonts/karla/Karla-Regular.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/karla/Karla-Regular.woff') format('woff'),
-         url('./fonts/karla/Karla-Regular.ttf') format('truetype'),
-         url('./fonts/karla/Karla-Regular.svg#robotoregular') format('svg');
+    src: url('../fonts/karla/Karla-Regular.eot');
+    src: url('../fonts/karla/Karla-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla/Karla-Regular.woff') format('woff'),
+         url('../fonts/karla/Karla-Regular.ttf') format('truetype'),
+         url('../fonts/karla/Karla-Regular.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Karla-Italic';
-    src: url('./fonts/karla/Karla-Italic.eot');
-    src: url('./fonts/karla/Karla-Italic.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/karla/Karla-Italic.woff') format('woff'),
-         url('./fonts/karla/Karla-Italic.ttf') format('truetype'),
-         url('./fonts/karla/Karla-Italic.svg#robotoregular') format('svg');
+    src: url('../fonts/karla/Karla-Italic.eot');
+    src: url('../fonts/karla/Karla-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla/Karla-Italic.woff') format('woff'),
+         url('../fonts/karla/Karla-Italic.ttf') format('truetype'),
+         url('../fonts/karla/Karla-Italic.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Karla-Bold';
-    src: url('./fonts/karla/Karla-Bold.eot');
-    src: url('./fonts/karla/Karla-Bold.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/karla/Karla-Bold.woff') format('woff'),
-         url('./fonts/karla/Karla-Bold.ttf') format('truetype'),
-         url('./fonts/karla/Karla-Bold.svg#robotoregular') format('svg');
+    src: url('../fonts/karla/Karla-Bold.eot');
+    src: url('../fonts/karla/Karla-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla/Karla-Bold.woff') format('woff'),
+         url('../fonts/karla/Karla-Bold.ttf') format('truetype'),
+         url('../fonts/karla/Karla-Bold.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Karla-BoldItalic';
-    src: url('./fonts/karla/Karla-BoldItalic.eot');
-    src: url('./fonts/karla/Karla-BoldItalic.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/karla/Karla-BoldItalic.woff') format('woff'),
-         url('./fonts/karla/Karla-BoldItalic.ttf') format('truetype'),
-         url('./fonts/karla/Karla-BoldItalic.svg#robotoregular') format('svg');
+    src: url('../fonts/karla/Karla-BoldItalic.eot');
+    src: url('../fonts/karla/Karla-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla/Karla-BoldItalic.woff') format('woff'),
+         url('../fonts/karla/Karla-BoldItalic.ttf') format('truetype'),
+         url('../fonts/karla/Karla-BoldItalic.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Pacifico';
-    src: url('./fonts/pacifico/Pacifico.eot');
-    src: url('./fonts/pacifico/Pacifico.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/pacifico/Pacifico.woff') format('woff'),
-         url('./fonts/pacifico/Pacifico.ttf') format('truetype'),
-         url('./fonts/pacifico/Pacifico.svg#robotoregular') format('svg');
+    src: url('../fonts/pacifico/Pacifico.eot');
+    src: url('../fonts/pacifico/Pacifico.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pacifico/Pacifico.woff') format('woff'),
+         url('../fonts/pacifico/Pacifico.ttf') format('truetype'),
+         url('../fonts/pacifico/Pacifico.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
