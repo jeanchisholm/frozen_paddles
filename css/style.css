@@ -316,9 +316,21 @@ footer i {
 
 
 
-    /*Tablet Sized*/
+/*Over-sized screen*/
 
-@media all and (min-width: 600px) and (max-width: 1140px) {
+@media all and (min-width: 1180px) {
+
+    article {
+       margin: 0 auto; 
+       max-width: 1145px;
+    }
+}
+
+
+/*Tablet Sized*/
+
+@media all and (max-width: 1140px) {
+
    nav img {
         max-height: 35px;
         margin: 12px 15px;
@@ -359,7 +371,7 @@ footer i {
         max-width: 99%;
     }
 
-            /*Tablet Sections*/
+/*Tablet Sections*/
 
     section {
         margin: 0 15px;
@@ -373,6 +385,34 @@ footer i {
     footer ul {
         padding-right: 30px;
 
+    }
+
+}
+
+
+/*Table Size Special for Table*/
+
+@media all and (min-width: 601px) and (max-width: 734px) {
+
+    .rental-content {
+        display: block;
+    }
+
+    article aside {
+        width: 100%;
+        display: block;
+    }
+
+    table {
+        margin-top: 20px;
+    }
+
+    th {
+        padding: 14px;
+    }
+
+    td {
+        padding: 14px;
     }
 
 }
