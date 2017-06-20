@@ -331,7 +331,8 @@ footer i {
     }
 
     header {
-        background-position: 45% 80%;
+        background-position: 45% 40%;
+        background-size: 158%;
         height: 600px;
         padding-top: 30px;
     }
